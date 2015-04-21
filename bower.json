@@ -40,7 +40,7 @@
   "devDependencies": {},
   "license": ["OFL-1.1", "MIT", "CC-BY-3.0"],
   "main": [
-    "./directives*.js","./css/*.css","./css/*.less"
+   "./components*.js", "./directives*.js","./css/*.css","./css/*.less"
   ],
   "exportsOverride": {
   		"bootstrap": {
