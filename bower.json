@@ -60,6 +60,11 @@
 		},
 		"jquery-ui": {
 			"": ["jquery-ui.js","./themes/base/jquery-ui.css" ]
+		},
+		"Angular-Directives":{
+			"":[ "./directives*.js","./css/*.css","./css/*.less"],
+			"templates":"./templates/*.*",
+			"Controller":"./Controller/*.*"
 		}
   },
   "ignore": [
