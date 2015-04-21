@@ -58,7 +58,7 @@
 		"hammer": 
 		{      
 			"": "hammer.{js,min.js}"
-		}
+		},
 		"font-awesome": {
 			"fonts": "fonts/*.*",
 			"css": "css/*.*"
@@ -67,7 +67,7 @@
 			"": ["jquery-ui.js","./themes/base/jquery-ui.css" ]
 		},
 		"Angular-Directives":{
-			"":[ "./directives*.js","./css/*.css","./css/*.less"],
+			"": [ "./directives*.js", "./css/*.css", "./css/*.less","./directives.html" ],
 			"templates":"./templates/*.*",
 			"Controller":"./Controller/*.*"
 		}
