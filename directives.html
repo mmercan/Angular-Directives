@@ -7,7 +7,7 @@
  <script src="/lib/tinymce/tinymce.min.js"></script>
 
     <link href="/lib/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
-
+    <link href="/lib/toastr/toastr.css" rel="stylesheet" />
     <link href="/lib/Angular-Directives/directivestyles.css" rel="stylesheet" />
     <link href="/lib/Angular-Directives/site.css" rel="stylesheet"/>
 
@@ -242,11 +242,12 @@
             </div>
         </div>
     </div>
-    <div class="container body-content">
-        <div class="view-animate-container">
-    <div ng-view="" class="view-animate"></div>
-</div>
+<div class="container body-content">
+    <div id="pa-page-alerts-box"></div>
+    <div class="view-animate-container">
+        <div ng-view="" class="view-animate"></div>
     </div>
+</div>
 
     <script src="/lib/jquery/jquery.js"></script>
     <script src="/lib/bootstrap/js/bootstrap.js"></script>
@@ -281,7 +282,7 @@
 
 
 
-
+<script src="/lib/Angular-Directives/components.js"></script>
 <script src="/lib/Angular-Directives/directives.js"></script>
 <script src="/lib/Angular-Directives/Controller/angularcomp.js"></script>
 
