@@ -54,7 +54,12 @@
 		},
 		"jquery": {
 			"": "jquery.{js,min.js,min.map}"
-		},"font-awesome": {
+		},    
+		"hammer": 
+		{      
+			"": "hammer.{js,min.js}"
+		}
+		"font-awesome": {
 			"fonts": "fonts/*.*",
 			"css": "css/*.*"
 		},
