@@ -42,6 +42,26 @@
   "main": [
     "./directives*.js","./css/*.css","./css/*.less"
   ],
+  "exportsOverride": {
+  		"bootstrap": {
+			"js": "dist/js/*.*",
+			"css": "dist/css/*.*",
+			"fonts": "dist/fonts/*.*"
+		},
+		"bootstrap-touch-carousel": {
+			"js": "dist/js/*.*",
+			"css": "dist/css/*.*"
+		},
+		"jquery": {
+			"": "jquery.{js,min.js,min.map}"
+		},"font-awesome": {
+			"fonts": "fonts/*.*",
+			"css": "css/*.*"
+		},
+		"jquery-ui": {
+			"": ["jquery-ui.js","./themes/base/jquery-ui.css" ]
+		}
+  },
   "ignore": [
     "*/.*",
     "*.json",
