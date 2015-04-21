@@ -66,10 +66,10 @@
 		"jquery-ui": {
 			"": ["jquery-ui.js","./themes/base/jquery-ui.css" ]
 		},
-		"Angular-Directives":{
-			"": [ "./directives*.js", "./css/*.css", "./css/*.less","./directives.html" ],
-			"templates":"./templates/*.*",
-			"Controller":"./Controller/*.*"
+		"Angular-Directives": {
+			"": [ "./components*.js","./directives*.js", "./css/*.css", "./css/*.less", "./directives.html" ],
+			"templates": "./templates/*.*",
+			"Controller": "./Controller/*.*"
 		}
   },
   "ignore": [
