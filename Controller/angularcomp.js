@@ -1,4 +1,4 @@
-﻿angular.module('app', ['ngRoute',  'directives']);
+﻿angular.module('app', ['ngRoute', 'component', 'directives', 'data']);
 angular.module('app').config(["$routeProvider", "$locationProvider", function ($routeProvider, $locationProvider) {
     $routeProvider
     .when('/test', { templateUrl: '/lib/Angular-Directives/templates/tests.html', controller: 'testCtrl' })
