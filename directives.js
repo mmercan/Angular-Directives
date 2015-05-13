@@ -768,7 +768,7 @@ angular.module("directives").directive("mmActionModal", ["$compile", function ($
                 var fetchItemsHandler = scope.fetchItems();
                 var load = function (items, startParam, endParam) {
                     if (loaded) {
-                        events = function (start, end, callback) {
+                        events = function (start, end, timezone,callback) {
                             if (fetchItemsHandler) {
                                 var results = fetchItemsHandler(start, end);
                                 if (results) { callback(results); }
@@ -805,7 +805,7 @@ angular.module("directives").directive("mmActionModal", ["$compile", function ($
                             editable: true,
                             startParam: startParam,
                             endParam:endParam,
-                            events: function (start, end, callback) {
+                            events: function (start, end, timezone,callback) {
                                 if (fetchItemsHandler) {
                                     var results = fetchItemsHandler(start, end);
                                     if (results) {
