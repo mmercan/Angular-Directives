@@ -1,4 +1,4 @@
-﻿/*colors*/
+/*colors*/
 
 
 @bluejeans: #5D9CEC;
@@ -58,6 +58,13 @@ div.panel.panel-bluejeans.colored-body {
 > .panel-footer{ color: #fff; border-top-color:@bluejeans-dark; ; background-color:  @bluejeans; }
 }
 
+div.well.well-bluejeans{
+    background-color:  @bluejeans;  
+    border-color:@bluejeans-dark;
+    color:@lightgray;
+     span{color:@lightgray}
+
+}
 
 div.panel.panel-bluejeans-dark {
   border-color: @bluejeans;
@@ -72,6 +79,13 @@ div.panel.panel-bluejeans-dark.colored-body {
     border:none;
 > .panel-body{ color: #fff;  background-color: @bluejeans-dark; }
 > .panel-footer{ color: #fff; border-top-color:@bluejeans;  background-color:  @bluejeans-dark; }
+}
+
+div.well.well-bluejeans-dark{
+    background-color: @bluejeans-dark;  
+    border-color: @bluejeans;
+    color:@lightgray;
+     span{color:@lightgray}
 }
 
 .bg-aqua {
@@ -103,6 +117,13 @@ div.panel.panel-aqua.colored-body {
 > .panel-footer{ color: #fff; border-top-color:@aqua-dark;  background-color: @aqua; }
 }
 
+div.well.well-aqua{
+    background-color: @aqua;  
+    border-color: @aqua-dark;
+    color:@darkgray-dark;
+     span{color:@darkgray-dark}
+}
+
 div.panel.panel-aqua-dark {
   border-color: @aqua-dark;
 > .panel-heading {  color: @darkgray-dark;  background-color:  @aqua-dark;  border-color:@aqua;}
@@ -116,6 +137,14 @@ div.panel.panel-aqua-dark.colored-body {
 > .panel-body{ color: #fff;  background-color: @aqua-dark; }
 > .panel-footer{ color: #fff; border-top-color:@aqua;  background-color: @aqua-dark; }
 }
+
+div.well.well-aqua-dark{
+    background-color: @aqua-dark;  
+    border-color: @aqua;
+    color:@darkgray-dark;
+     span{color:@darkgray-dark}
+}
+
 .bg-mint {
     background-color: @mint;
 }
@@ -157,6 +186,22 @@ div.panel.panel-mint-dark.colored-body {
 > .panel-footer{ color: #fff; border-top-color:@mint;  background-color: @mint-dark; }
 }
 
+div.well.well-mint{
+    background-color: @mint;  
+    border-color: @mint-dark;
+    color:white;
+     span{color:white}
+}
+
+div.well.well-mint-dark{
+    background-color: @mint-dark;  
+    border-color: @mint;
+    color:white;
+     span{color:white}
+}
+
+
+
 .bg-grass {
     background-color: @grass;
 }
@@ -196,6 +241,22 @@ div.panel.panel-grass-dark.colored-body {
 > .panel-body{ color: #fff;  background-color: @grass-dark; }
 > .panel-footer{ color: #fff; border-top-color:@grass;  background-color: @grass-dark; }
 }
+
+div.well.well-grass{
+    background-color: @grass;  
+    border-color: @grass-dark;
+    color:@darkgray-dark;
+     span{color:@darkgray-dark}
+}
+
+div.well.well-grass-dark{
+    background-color: @grass-dark;  
+    border-color: @grass;
+    color:white;
+     span{color:white}
+}
+
+
 .text-sunflower {
     color: @sunflower;
 }
@@ -234,6 +295,20 @@ div.panel.panel-sunflower-dark.colored-body {
     border:none;
 > .panel-body{ color: #555;  background-color: @sunflower-dark; }
 > .panel-footer{ color: #555; border-top-color:@sunflower;  background-color: @sunflower-dark; }
+}
+
+div.well.well-sunflower{
+    background-color: @sunflower;  
+    border-color: @sunflower-dark;
+    color:@darkgray-dark;
+     span{color:@darkgray-dark}
+}
+
+div.well.well-sunflower-dark{
+    background-color: @sunflower-dark;  
+    border-color: @sunflower;
+    color:#555;
+     span{color:#555}
 }
 
 .bg-bittersweet {
@@ -275,6 +350,21 @@ div.panel.panel-bittersweet-dark.colored-body {
 > .panel-body{ color: #fff;  background-color: @bittersweet-dark; }
 > .panel-footer{ color: #fff; border-top-color:@bittersweet;  background-color: @bittersweet-dark; }
 }
+
+div.well.well-bittersweet{
+    background-color: @bittersweet;  
+    border-color: @bittersweet-dark;
+    color:white;
+     span{color:white}
+}
+
+div.well.well-bittersweet-dark{
+    background-color: @bittersweet-dark;  
+    border-color: @bittersweet;
+    color:@lightgray;
+     span{color:@lightgray}
+}
+
 .bg-grapefruit{
     background-color:@grapefruit;
 }
@@ -315,6 +405,22 @@ div.panel.panel-grapefruit-dark.colored-body {
 > .panel-body{ color: #fff;  background-color: @grapefruit-dark; }
 > .panel-footer{ color: #fff; border-top-color:@grapefruit;  background-color: @grapefruit-dark; }
 }
+
+
+div.well.well-grapefruit{
+    background-color: @grapefruit;  
+    border-color: @grapefruit-dark;
+    color:white;
+     span{color:white}
+}
+
+div.well.well-grapefruit-dark{
+    background-color: @grapefruit-dark;  
+    border-color: @grapefruit;
+    color:@lightgray;
+     span{color:@lightgray}
+}
+
 .bg-lavender {
     background-color: @lavender;
 }
@@ -356,6 +462,21 @@ div.panel.panel-lavender-dark.colored-body {
 > .panel-footer{ color: #fff; border-top-color:@lavender;  background-color: @lavender-dark; }
 }
 
+
+div.well.well-lavender{
+    background-color: @lavender;  
+    border-color: @lavender-dark;
+    color:white;
+     span{color:white}
+}
+
+div.well.well-lavender-dark{
+    background-color: @lavender-dark;  
+    border-color: @lavender;
+    color:white;
+     span{color:white}
+}
+
 .bg-pinkrose {
     background-color: @pinkrose;
 }
@@ -395,6 +516,22 @@ div.panel.panel-pinkrose-dark.colored-body {
 > .panel-body{ color: #fff;  background-color: @pinkrose-dark; }
 > .panel-footer{ color: #fff; border-top-color:@pinkrose;  background-color: @pinkrose-dark; }
 }
+
+
+div.well.well-pinkrose{
+    background-color: @pinkrose;  
+    border-color: @pinkrose-dark;
+    color: #111;
+     span{color: #111}
+}
+
+div.well.well-pinkrose-dark{
+    background-color: @pinkrose-dark;  
+    border-color: @pinkrose;
+    color:white;
+     span{color:white}
+}
+
 .bg-lightgray {
     background-color: @lightgray;
 }
@@ -433,6 +570,21 @@ div.panel.panel-lightgray-dark.colored-body {
 > .panel-body{ color: #555;  background-color: @lightgray-dark; }
 > .panel-footer{ color: #555; border-top-color:@lightgray;  background-color: @lightgray-dark; }
 }
+
+div.well.well-lightgray{
+    background-color: @lightgray;  
+    border-color: @lightgray-dark;
+    color: #555;
+     span{color: #555}
+}
+
+div.well.well-lightgray-dark{
+    background-color: @lightgray-dark;  
+    border-color: @lightgray;
+    color:#555;
+     span{color:#555}
+}
+
 
 .bg-mediumgray {
     background-color: @mediumgray;
@@ -474,6 +626,22 @@ div.panel.panel-mediumgray-dark.colored-body {
 > .panel-body{ color: #555;  background-color: @mediumgray-dark; }
 > .panel-footer{ color: #555; border-top-color:@mediumgray;  background-color: @mediumgray-dark; }
 }
+
+
+div.well.well-mediumgray{
+    background-color: @mediumgray;  
+    border-color: @mediumgray-dark;
+    color: #555;
+     span{color: #555}
+}
+
+div.well.well-mediumgray-dark{
+    background-color: @mediumgray-dark;  
+    border-color: @mediumgray;
+    color:#555;
+     span{color:#555}
+}
+
 .bg-darkgray {
     background-color: @darkgray;
 }
@@ -513,4 +681,18 @@ div.panel.panel-darkgray-dark.colored-body {
     border:none;
 > .panel-body{ color: #fff;  background-color: @darkgray-dark; }
 > .panel-footer{ color: #fff; border-top-color:@darkgray;  background-color: @darkgray-dark; }
+}
+
+div.well.well-darkgray{
+    background-color: @mediumgray;  
+    border-color: @mediumgray-dark;
+    color: white;
+     span{color: white}
+}
+
+div.well.well-darkgray-dark{
+    background-color: @mediumgray-dark;  
+    border-color: @mediumgray;
+    color:white;
+     span{color:white}
 }
